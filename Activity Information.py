@@ -4,7 +4,7 @@ import pandas as pd
 arr = []
 url = 'https://sys.ndhu.edu.tw/SA/XSL_ApplyRWD/ActApply.aspx'
 html = requests.get(url)
-html.encoding = 'utf8' # ֵአutf8嘨
+html.encoding = 'utf8'
 cl = []
 idx = ["活動名稱","主辦單位","活動日期","報名時間","認證時數"]
 sp = BeautifulSoup(html.text, 'lxml')
