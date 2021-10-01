@@ -16,7 +16,7 @@ for i in range (0,5):
             if data is None:
                 break
             arr[i].append(data.text)
-            cl.append(i+1)
+            cl.append(j+1)
         if(i==1):
             data = sp.find(id = "BodyContent_gvActs_lblGv_act_unit_"+str(j))
             if data is None:
